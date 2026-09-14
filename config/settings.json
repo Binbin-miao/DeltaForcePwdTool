@@ -1,0 +1,56 @@
+{
+  "wechat_path": "C:\\Program Files\\Tencent\\Weixin\\4.1.8.29",
+  "wechatocr_path": "%APPDATA%\\Tencent\\xwechat\\XPlugin\\plugins\\WeChatOcr\\8082\\extracted\\wxocr.dll",
+  "save_dir": "temp",
+  "temp_dir": "temp",
+    "hotkeys": {
+    "morse": "f5",
+    "fingerprint": "f6",
+    "exit": "end"
+  },
+  "fingerprint_images_dir": "images",
+  "fingerprint_auto_click": true,
+  "morse_auto_click": false,
+  "fingerprint": {
+    "name_region": { "x1": 706, "y1": 657, "x2": 866, "y2": 689 },
+    "number_region": { "x1": 1030, "y1": 530, "x2": 1365, "y2": 930 },
+    "big_fp_region": { "x1": 880, "y1": 420, "x2": 1500, "y2": 1080 },
+    "candidate_boxes": [
+      [1522, 560, 1627, 665], [1650, 560, 1755, 665], [1778, 560, 1883, 665],
+      [1522, 687, 1627, 792], [1650, 687, 1755, 792], [1778, 687, 1883, 792],
+      [1522, 815, 1627, 920], [1650, 815, 1755, 920], [1778, 815, 1883, 920]
+    ],
+    "target_centers": {
+      "8": [
+        {"id": 1, "x": 1040, "y": 600}, {"id": 2, "x": 1200, "y": 520},
+        {"id": 3, "x": 1360, "y": 600}, {"id": 4, "x": 1020, "y": 750},
+        {"id": 5, "x": 1200, "y": 750}, {"id": 6, "x": 1040, "y": 900},
+        {"id": 7, "x": 1200, "y": 960}, {"id": 8, "x": 1360, "y": 800}
+      ],
+      "6": [
+        {"id": 1, "x": 1040, "y": 580}, {"id": 2, "x": 1260, "y": 520},
+        {"id": 3, "x": 1380, "y": 700}, {"id": 4, "x": 1040, "y": 750},
+        {"id": 5, "x": 1240, "y": 800}, {"id": 6, "x": 1000, "y": 920}
+      ],
+      "4": [
+        {"id": 1, "x": 1080, "y": 580}, {"id": 2, "x": 1280, "y": 520},
+        {"id": 3, "x": 1340, "y": 720}, {"id": 4, "x": 1100, "y": 820}
+      ]
+    },
+    "mode_config": {
+      "8": { "mode": "C", "candidates": 9, "indices": [0, 1, 2, 3, 4, 5, 6, 7, 8] },
+      "6": { "mode": "B", "candidates": 7, "indices": [0, 1, 2, 3, 4, 5, 6] },
+      "4": { "mode": "A", "candidates": 5, "indices": [0, 1, 2, 3, 4] }
+    },
+    "match_threshold": 0.5
+  },
+  "morse_confirm_clicks": [
+    { "x": 1359, "y": 1060 },
+    { "x": 1241, "y": 1060 }
+  ],
+  "regions": [
+    { "name": "区域1", "left": 699, "top": 514, "width": 200, "height": 50 },
+    { "name": "区域2", "left": 967, "top": 514, "width": 200, "height": 50 },
+    { "name": "区域3", "left": 1234, "top": 514, "width": 200, "height": 50 }
+  ]
+}
