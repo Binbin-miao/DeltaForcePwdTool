@@ -25,9 +25,6 @@
 - Python 3.9+ / Windows 系统
 - 微信 4.1.8.28+（OCR 依赖，需登录过一次以释放插件）
 
-```bash
-pip install mss opencv-python numpy pillow keyboard
-```
 
 > `wcocr.pyd` 已放置于项目根目录，无需额外安装。
 
