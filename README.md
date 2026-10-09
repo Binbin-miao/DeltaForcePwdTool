@@ -1,7 +1,8 @@
 # 《三角洲行动》密码工具
 由原项目https://github.com/izhangguapi/DeltaForceCodeAssistant
 修改优化而来
-视频演示：【三角洲行动：它怎么吃得这么快？-哔哩哔哩】 https://b23.tv/B4lttSm [另一作品已被限流下架]
+视频演示：【三角洲行动：它怎么吃得这么快？-哔哩哔哩】 https://b23.tv/B4lttSm [已被限流下架]
+https://v.douyin.com/7WBU_g5LU7g/ 复制此链接，打开Dou音搜索，直接观看视频！
 
 整合**摩斯码识别**与**指纹密码破解**两大功能，辅助完成《三角洲行动》骇客电脑小游戏。程序仅读取屏幕截图，不修改任何游戏数据。
 
